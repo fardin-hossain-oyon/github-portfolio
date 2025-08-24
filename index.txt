@@ -1,18 +1,18 @@
-vCard - Personal Portfolio
+Portfolio of Fardin Hossain
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
-Web developer
+alt = Fardin Hossain
+Fardin Hossain
+Research Enthusiast
 
 Show Contacts
 
 Email
-richard@example.com
+fardinoyon123@gmail.com
 
 Phone
-+1 (213) 352-2795
++880 1864712959
 
 Birthday
 June 23, 1982
