@@ -1880,3 +1880,36 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+
+
+.research-container {
+  display: flex;
+  align-items: flex-start;       /* vertically centers image and text */
+  gap: 20px;                 /* space between image and text */
+  margin-top: 20px;
+}
+
+.research-image img {
+  max-width: 300px;          /* control image size */
+  border-radius: 10px;       /* optional rounded corners */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.research-text {
+  flex: 1;                   /* take remaining space */
+  font-size: 16px;
+  line-height: 1.6;
+  color: white;              /* match your theme */
+}
+
+
+
+
+
+
+
+
+
+
+
