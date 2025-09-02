@@ -933,8 +933,12 @@ main {
 .select-item button:hover { --eerie-black-2: hsl(240, 2%, 20%); }
 
 .project-list {
-  display: grid;
+  /* display: grid;
   grid-template-columns: 1fr;
+  gap: 30px;
+  margin-bottom: 10px; */
+  display: flex;
+  flex-direction: column;
   gap: 30px;
   margin-bottom: 10px;
 }
@@ -1918,6 +1922,63 @@ textarea.form-input::-webkit-resizer { display: none; }
   font-size: 16px;
   text-align: left;
 }
+
+
+
+
+
+
+
+.project-content {
+  display: flex;
+  align-items: flex-start; /* align image & text at the top */
+  gap: 20px; /* space between image and text */
+}
+
+.project-img-box {
+  flex-shrink: 0; /* prevent image from shrinking */
+}
+
+.project-img img {
+  width: 200px;  /* adjust size */
+  height: auto;
+  border-radius: 8px;
+}
+
+/* .project-details {
+  flex: 1;
+}
+
+.project-title {
+  font-size: 1.3rem;
+  color: #ffd063;
+  margin-bottom: 0.5rem;
+}
+
+.project-details p {
+  color: #e6e6e6;
+  line-height: 1.6;
+} */
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* ensures left alignment */
+}
+
+.project-title {
+  font-size: 1.3rem;
+  color: #ffd063;
+  margin: 0 0 0.5rem 0; /* reset default h3 margins */
+  padding: 0;           /* ensure no extra space */
+}
+
+.project-details p {
+  color: #e6e6e6;
+  line-height: 1.6;
+  margin: 0; /* reset default paragraph margin */
+}
+
 
 
 
